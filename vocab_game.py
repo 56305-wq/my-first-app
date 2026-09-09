@@ -39,6 +39,8 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
 
    score = 4
 
+score = 0
+
 # ตรวจข้อ 1
 if u_ans1 == "apple":
     st.success("✅ ข้อ 1: ถูกต้อง")
@@ -67,8 +69,7 @@ if u_ans4 == "pillow":
 else:
     st.error(f"❌ ข้อ 4: ยังไม่ถูกต้อง (คุณตอบ '{u_ans4}')")
 
-st.write(f"คะแนนของคุณ: {score}/4")
-
+score = 4
 
     st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
