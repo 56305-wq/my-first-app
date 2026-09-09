@@ -39,7 +39,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
 
    score = 4
 
-score = 0
+
 
 # ตรวจข้อ 1
 if u_ans1 == "apple":
