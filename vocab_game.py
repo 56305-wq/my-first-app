@@ -37,7 +37,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
     u_ans3 = ans3.strip().lower()
     u_ans4 = ans4.strip().lower()
 
-   score = 0
+   score = 4
 
 # ตรวจข้อ 1
 if u_ans1 == "apple":
