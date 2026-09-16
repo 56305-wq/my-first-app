@@ -67,8 +67,9 @@ if u_ans4 == "pillow":
     score += 1
 else:
     st.error(f"❌ ข้อ 4: ยังไม่ถูกต้อง (คุณตอบ '{u_ans4}')")
-    score = 4
-   st.info(f"🏆 ได้คะแนนรวม:{score} คะแนน")
+    score = 4                         
+    
+    st.info(f"🏆 ได้คะแนนรวม:{score} คะแนน")
 
     if score == 4:
         st.success("🎉 You win!")
